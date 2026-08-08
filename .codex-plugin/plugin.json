@@ -1,0 +1,33 @@
+{
+  "name": "luna-worktree-orchestrator",
+  "version": "0.5.0",
+  "description": "Low-token Codex orchestration: Sol / Medium delegates to Luna / Max and, when the host supports it, edits the current checkout directly as unstaged files without a worktree or Git writes.",
+  "author": {
+    "name": "Local"
+  },
+  "license": "MIT",
+  "keywords": [
+    "codex",
+    "luna",
+    "worktree",
+    "delegation",
+    "low-token"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Luna Direct Checkout Orchestrator",
+    "shortDescription": "Let Luna edit the current checkout directly",
+    "longDescription": "Keeps the primary Codex session lightweight and creates one GPT-5.6 Luna / Max implementation task targeting the existing checkout when the host explicitly supports that mode. Leaves changes unstaged and creates no worktree, commit, push, merge, branch, PR, or extra reviewer.",
+    "developerName": "Local",
+    "category": "Coding",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "defaultPrompt": [
+      "Use Luna / Max to edit this current checkout directly.",
+      "Delegate this coding task without creating a worktree."
+    ]
+  }
+}
