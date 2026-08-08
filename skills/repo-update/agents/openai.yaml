@@ -1,0 +1,14 @@
+interface:
+  display_name: repo update
+  short_description: Incrementally update .agents/repo-map.md from material repository
+    changes without rescanning the whole repository.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
+
