@@ -1,7 +1,7 @@
 {
   "name": "codex-workflow-toolkit",
-  "version": "0.6.0",
-  "description": "Practical Codex workflow skills for direct-checkout delegation, repository navigation, change review, and chat handoffs.",
+  "version": "0.7.0",
+  "description": "Practical Codex workflow skills plus bundled Ponytail, UI/UX Pro Max, and Emil design-engineering skills.",
   "author": {
     "name": "Local"
   },
@@ -13,13 +13,16 @@
     "delegation",
     "handoff",
     "review",
-    "ponytail"
+    "ponytail",
+    "ui",
+    "ux",
+    "animation"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Codex Workflow Toolkit",
-    "shortDescription": "Codex skills for repo work and handoffs",
-    "longDescription": "Packages direct-checkout delegation plus repository mapping, incremental map updates, review/autofix, and chat handoff skills.",
+    "shortDescription": "Codex workflow, UI, and review skills",
+    "longDescription": "Packages direct-checkout delegation, repository mapping, change review, chat handoffs, Ponytail minimalism, UI/UX design intelligence, and Emil design-engineering skills.",
     "developerName": "Local",
     "category": "Coding",
     "capabilities": [
