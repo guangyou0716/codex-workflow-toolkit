@@ -1,19 +1,19 @@
-# Luna Direct Checkout Orchestrator
+# Codex Workflow Toolkit
 
-A Codex plugin that delegates one coding task to GPT-5.6 Luna / Max and, when the host supports it, edits the current checkout directly as unstaged files.
+A public Codex plugin for focused repository and handoff workflows.
 
 ## Install
 
 Use this public GitHub repository URL in Codex:
 
-https://github.com/guangyou0716/luna-worktree-orchestrator
+https://github.com/guangyou0716/codex-workflow-toolkit
 
-## Use
+## Included skills
 
-Invoke the skill with:
+- `codex-workflow-toolkit:delegate` — delegate coding work to Luna / Max in the current checkout.
+- `codex-workflow-toolkit:chat-handoff-summary` — create a copyable continuation handoff.
+- `codex-workflow-toolkit:repo-map` — create or rebuild `.agents/repo-map.md`.
+- `codex-workflow-toolkit:repo-update` — incrementally update an existing repository map.
+- `codex-workflow-toolkit:review-and-ponytail-autofix` — review, simplify, fix, and validate uncommitted changes.
 
-```
-$luna-worktree-orchestrator:delegate Implement <task>.
-```
-
-The plugin preserves existing local changes and does not stage, commit, push, merge, create branches, or open pull requests.
+The skills preserve repository safety and keep their scope narrow.
