@@ -1,0 +1,15 @@
+interface:
+  display_name: review and ponytail autofix
+  short_description: Review, fix, simplify, and validate staged, unstaged, and relevant
+    untracked repository changes using exactly one correctness review and one Ponytail
+    review.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
+
