@@ -1,7 +1,7 @@
 {
   "name": "codex-workflow-toolkit",
-  "version": "0.7.1",
-  "description": "Practical Codex workflow skills with setup guidance for upstream companion sources.",
+  "version": "0.7.2",
+  "description": "Practical Codex workflow skills with upstream installation documentation.",
   "author": {
     "name": "Local"
   },
@@ -31,7 +31,7 @@
     ],
     "defaultPrompt": [
       "Use the smallest matching local workflow skill.",
-      "Set up the toolkit's upstream companion sources."
+      "Use the upstream installation guide when companion sources are needed."
     ]
   }
 }

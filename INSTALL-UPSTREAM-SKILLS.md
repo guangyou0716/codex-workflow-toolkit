@@ -34,7 +34,3 @@ python <CODEX_HOME>/skills/.system/skill-installer/scripts/install-skill-from-gi
 ```
 
 Replace `<CODEX_HOME>` with the Codex installation directory on the current computer. After installation, use the upstream skill names directly. Do not copy their files into this repository.
-
-## Codex setup shortcut
-
-After installing this repository, invoke `codex-workflow-toolkit:setup-upstream-skills` to follow the same instructions.
