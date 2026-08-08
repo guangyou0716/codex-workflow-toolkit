@@ -28,3 +28,5 @@ Invoke `codex-workflow-toolkit:setup-upstream-skills` after installing this plug
 - [Emil Kowalski's skills](https://github.com/emilkowalski/skills) - design and animation skills
 
 Codex plugin manifests do not declare dependencies that silently install other plugins, so the setup skill is the explicit second step after installing this repository URL.
+
+For copyable links and install commands, see [INSTALL-UPSTREAM-SKILLS.md](INSTALL-UPSTREAM-SKILLS.md).
