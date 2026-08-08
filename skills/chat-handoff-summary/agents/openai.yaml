@@ -1,0 +1,18 @@
+interface:
+  display_name: chat handoff summary
+  short_description: Create a concise, copyable continuation handoff from the current
+    conversation, preserving the goal, confirmed decisions, constraints, technical
+    details, files, skills, paths, completed work, pending tasks, open questions,
+    rejected approaches, and exact next action. Use when the user asks to summarize
+    a chat for a new chat, prepare a handoff, extract key points, or create a continuation
+    prompt.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
+
