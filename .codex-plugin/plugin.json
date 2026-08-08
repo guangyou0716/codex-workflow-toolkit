@@ -1,10 +1,12 @@
 {
   "name": "codex-workflow-toolkit",
-  "version": "0.7.0",
-  "description": "Practical Codex workflow skills plus bundled Ponytail, UI/UX Pro Max, and Emil design-engineering skills.",
+  "version": "0.7.1",
+  "description": "Practical Codex workflow skills with setup guidance for upstream companion sources.",
   "author": {
     "name": "Local"
   },
+  "homepage": "https://github.com/guangyou0716/codex-workflow-toolkit",
+  "repository": "https://github.com/guangyou0716/codex-workflow-toolkit",
   "license": "MIT",
   "keywords": [
     "codex",
@@ -13,16 +15,13 @@
     "delegation",
     "handoff",
     "review",
-    "ponytail",
-    "ui",
-    "ux",
-    "animation"
+    "installation"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Codex Workflow Toolkit",
-    "shortDescription": "Codex workflow, UI, and review skills",
-    "longDescription": "Packages direct-checkout delegation, repository mapping, change review, chat handoffs, Ponytail minimalism, UI/UX design intelligence, and Emil design-engineering skills.",
+    "shortDescription": "Codex workflow skills and companion setup",
+    "longDescription": "Packages direct-checkout delegation, repository mapping, change review, chat handoffs, and a setup guide for installing the upstream Ponytail, UI/UX Pro Max, and Emil skills.",
     "developerName": "Local",
     "category": "Coding",
     "capabilities": [
@@ -31,8 +30,8 @@
       "Interactive"
     ],
     "defaultPrompt": [
-      "Use the smallest matching workflow skill for this task.",
-      "Preserve repository safety and verify changes."
+      "Use the smallest matching local workflow skill.",
+      "Set up the toolkit's upstream companion sources."
     ]
   }
 }
