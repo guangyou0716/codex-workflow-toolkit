@@ -1,6 +1,6 @@
 ---
 name: delegate
-description: Delegate a concrete coding or repository-editing task to GPT-5.6 Luna with max reasoning while keeping the primary session lightweight, and request that Luna edit the user's current checkout directly without creating a separate worktree. Use when the user explicitly invokes $luna-worktree-orchestrator:delegate or asks for Luna / Max to modify the current branch directly. Do not use for question-only or research-only requests.
+description: Delegate a concrete coding or repository-editing task to GPT-5.6 Luna with max reasoning while keeping the primary session lightweight, and request that Luna edit the user's current checkout directly without creating a separate worktree. Use when the user explicitly invokes $codex-workflow-toolkit:delegate or asks for Luna / Max to modify the current branch directly. Do not use for question-only or research-only requests.
 ---
 
 # Luna Direct-Checkout Delegate
@@ -151,6 +151,6 @@ If direct-checkout task creation was unsupported, state that clearly and do not 
 ## Recommended invocation
 
 ```text
-$luna-worktree-orchestrator:delegate Implement the following change: <task>.
+$codex-workflow-toolkit:delegate Implement the following change: <task>.
 ```
 
